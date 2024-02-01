@@ -5,17 +5,19 @@
   --black: #111;
   --dark-purple: #1e1823;
   --orange: #fd9222;
-  --white: #fafafa;
+  --white: #fff;
+  --offwhite: #fafafa; 
   --montserrat: 'Montserrat', sans-serif;
 }
 
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--white);
+  background: var(--offwhite);
   font-family: var(--montserrat);
 }
 
