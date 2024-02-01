@@ -1,3 +1,148 @@
-.list {
+// common styles
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fafafa;
+}
+
+img {
+  display: block;
+}
+
+ul {
   list-style-type: none;
+}
+// end of common styles
+
+.product-section {
+  display: flex;
+  width: 1136px;
+  height: 442px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  flex-shrink: 0;
+
+  margin: auto;
+}
+
+.title {
+  color: #111;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.span-title {
+  color: #fd9222;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.cards-container {
+  display: flex;
+  width: 1136px;
+  height: 364px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.card-list {
+  display: flex;
+  width: 1136px;
+  height: 364px;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+
+.product-item {
+  // layout
+  width: 270px;
+  height: 364px;
+  flex-shrink: 0;
+
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fff;
+}
+
+.img-item {
+  width: 230px;
+  height: 201px;
+  flex-shrink: 0;
+  background: lightgray -3.584px -19.709px / 102.928% 117.778% no-repeat;
+  margin: 32px auto 6px;
+}
+
+.card-content {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+
+  // font
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+
+  margin-bottom: 18px;
+}
+
+.sub-title-item {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+}
+
+.desc-item {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: -0.24px;
+}
+
+.btn-price {
+  display: flex;
+  width: 94px;
+  padding: auto;
+  align-items: flex-start;
+  gap: 14px;
+
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fafafa;
+
+  margin: auto;
+  display: block;
+
+  color: #111;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
