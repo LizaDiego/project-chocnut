@@ -1,18 +1,15 @@
 var swiper = new Swiper('.swiper', {
   slidesPerView: 1,
   spaceBetween: 0,
-  loop: true,
   breakpoints: {
     375: {
       slidesPerView: 1,
       spaceBetween: 0,
     },
-    // if screen size is >= 768px
     768: {
       slidesPerView: 2.6,
       spaceBetween: 18,
     },
-    // if screen size is >= 1200px
     1200: {
       slidesPerView: 4,
       spaceBetween: 18,
