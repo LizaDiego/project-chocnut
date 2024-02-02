@@ -1,22 +1,25 @@
-var swiper = new Swiper('.mySwiper', {
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
+var swiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  loop: true,
   breakpoints: {
-    // tablet view
+    375: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    // if screen size is >= 768px
     768: {
-      slidesPerView: 2.62,
+      slidesPerView: 2.6,
       spaceBetween: 18,
     },
-    // desktop view
+    // if screen size is >= 1200px
     1200: {
       slidesPerView: 4,
       spaceBetween: 18,
     },
-    // mobile view
-    1: {
-      slidesPerView: 1,
-    },
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
   },
 });
