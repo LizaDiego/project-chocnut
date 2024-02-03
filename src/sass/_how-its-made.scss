@@ -1,0 +1,270 @@
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.how-its-made-section {
+    width: 335px;
+    height: auto;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .how-its-made-section {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.how-its-made-header {
+    color: var(--black);
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-text {
+    color: var(--orange);
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.video-cover {
+    display: block;
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, 
+        rgba(0, 0, 0, 0.40) 100%), 
+        url(../images/instruction-video-mobile-1x.jpg), 
+        lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+    background-position: center center;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.youtube-link {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 56.25%;
+}
+
+.play-button iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+}
+
+.play-button {
+    width: 14px;
+    height: 15px;
+    position: absolute;
+    left: 150px;
+    top: 233px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.youtube-video-container {
+    display: flex;
+    width: 335px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: var(--white);
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.how-its-made-text {
+    width: 307px;
+    color: var(--black);
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    align-items: center;
+    padding: 20px;
+}
+
+.how-its-made-list {
+    width: 291px;
+    padding: 20px 14px;
+}
+
+.how-its-made-step {
+    color: var(--black);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    gap: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .how-its-made-section {
+        display: flex;
+        width: 335px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .how-its-made-title {
+        color: var(--black);
+        text-align: center;
+        font-family: inherit;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .orange-text {
+        color: var(--orange);
+        font-family: inherit;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+    }
+
+    .video-instruction-container {
+        display: block;
+        width: 335px;
+        height: 500px;
+        border-radius: 15px;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%,
+                rgba(0, 0, 0, 0.40) 100%),
+            url(../images/instruction-video-mobile-1x.jpg),
+            lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+        background-position: center center;
+        scroll-margin-top: 20px;
+        margin-left: 20px;
+
+    }
+
+    .youtube-link {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 56.25%;
+    }
+
+    .youtube-link iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .how-its-made-section {
+        display: flex;
+        width: 335px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .how-its-made-title {
+        color: var(--black);
+        text-align: center;
+        font-family: inherit;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .orange-text {
+        color: var(--orange);
+        font-family: inherit;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+    }
+
+    .video-instruction-container {
+        width: 614px;
+        height: 400px;
+        border-radius: 15px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, 
+        rgba(0, 0, 0, 0.40) 100%), 
+        url(../images/instruction-video-1x.jpg), 
+        lightgray -11.071px -343.839px / 103.473% 236.295% no-repeat;
+    }
+
+    .instruction-text {
+        width: 350px;
+        color: var(--black);
+        font-family: inherit;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .video-instruction-step {
+        color:var(--black);
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+}
