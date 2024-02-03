@@ -27,3 +27,15 @@
     text-transform: uppercase;
     font-family: var(--montserrat);
 }
+.top-seller-list {
+    flex-shrink: 0;
+    width: calc((100% - 16px) / 3);
+}
+.top-seller{
+    display: flex;
+    width: 100%;
+
+}
+.top-seller-section{
+    width: 100%;
+}
