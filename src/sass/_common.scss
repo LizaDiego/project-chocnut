@@ -1,1 +1,33 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+  --black: #111;
+  --darkpurple: #1e1823;
+  --orange: #fd9222;
+  --white: #fff;
+  --offwhite: #fafafa;
+  --matterhorn: #4c4c4c;
+  --zircon: #eceded;
+  --montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--offwhite);
+  font-family: var(--montserrat);
+}
+
+img {
+  display: block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
