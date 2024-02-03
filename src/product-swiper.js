@@ -1,22 +1,23 @@
-var swiper = new Swiper('.mySwiper', {
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
+var swiper = new Swiper('.swiper', {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 0,
   breakpoints: {
-    // tablet view
+    375: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
     768: {
-      slidesPerView: 2.62,
+      slidesPerView: 2.6,
       spaceBetween: 18,
     },
-    // desktop view
     1200: {
       slidesPerView: 4,
       spaceBetween: 18,
     },
-    // mobile view
-    1: {
-      slidesPerView: 1,
-    },
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
   },
 });
