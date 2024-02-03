@@ -1,6 +1,8 @@
 :root {
     --orange: #FD9222;
     --black: #111;
+    --montserrat: "Monserrat", sans-serif;
+
 }
 .top-orange {
     color:var(--orange);
@@ -11,6 +13,8 @@
     line-height: 28px;
     letter-spacing: -0.72px;
     text-transform: uppercase;
+    font-family: var(--montserrat);
+    
 }
 .top-black {
     color: black;
@@ -21,4 +25,5 @@
     line-height: 28px;
     letter-spacing: -0.72px;
     text-transform: uppercase;
+    font-family: var(--montserrat);
 }
