@@ -69,7 +69,27 @@
     background-color: transparent;
 }
 
-.navmenu .item:not(:last-child),
-.contactmenu .item:not(:last-child) {
+.navmenu .item:not(:last-child) {
     margin-right: 24px;
+}
+
+.navsocial .item:not(:last-child) {
+    margin-right: 18px;
+}
+
+/*Social Links*/
+
+.divsocial {
+    margin: 0 auto;
+}
+
+.navsocila {
+    display: flex;
+    align-items: center;
+    
+}
+
+.navsocial-item {
+    width: 24px;
+    height: 24px;
 }
