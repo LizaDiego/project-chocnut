@@ -1,9 +1,9 @@
 <svg>
     <defs>
-        <symbol class="bulletpoint-mobile" xmlns="http://www.w3.org/2000/svg" width="8" height="8">
+        <symbol id="bulletpoint-mobile" xmlns="http://www.w3.org/2000/svg" width="8" height="8">
             <circle cx="4" cy="4" r="3.5" fill="#4C4C4C" stroke="#ECEDED"/>
         </symbol>
-        <symbol class="playbutton-mobile" xmlns="http://www.w3.org/2000/svg" width="14" height="15">
+        <symbol id="playbutton-mobile" xmlns="http://www.w3.org/2000/svg" width="14" height="15">
             <path d="M0 15V0L14 7.5L0 15Z" fill="#F5F4F4"/>
         </symbol>
     </defs>
