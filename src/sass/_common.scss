@@ -19,7 +19,7 @@
 }
 
 body {
-  background: var(--offwhite);
+  background-color: var(--offwhite);
   font-family: var(--montserrat);
 }
 
@@ -30,4 +30,38 @@ img {
 ul,
 ol {
   list-style-type: none;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 335px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 335px;
+    margin: 72px auto;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 335px;
+    margin: 72px auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 736px;
+    margin: 100px auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1136px;
+    margin: 128px auto;
+  }
 }
