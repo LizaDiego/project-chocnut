@@ -1,0 +1,65 @@
+<div class="review-modal is-hidden-review" data-modal-review>
+  <div class="modal-window-review">
+    <button
+      type="button"
+      class="modal-button-close-review"
+      data-modal-close-review
+    >
+      <svg
+        class="modal-close-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        width="28"
+        height="28"
+      >
+        <use href="./images/review-modal/review-modal.svg#close-x"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-review-title">
+      leave a review about <span><br />our chocolate</span>
+    </h2>
+
+    <form action="" class="modal-review-form" id="form" name="form">
+      <div class="modal-review-gap">
+        <input id="name" name="name" type="text" placeholder="Name" required />
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <div class="modal-reviews-field">
+          <input
+            class="input-number-reviews"
+            id="tel"
+            name="telephone"
+            type="tel"
+            placeholder="Phone number"
+            required
+          />
+          <span class="wrapper-phone"
+            ><svg
+              class="modal-flag-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+            >
+              <use href="./images/review-modal/review-modal.svg#flag-svg"></use>
+            </svg>
+            <span class="phone-number-reviews">+380</span>
+          </span>
+        </div>
+        <textarea
+          id="comment"
+          name="comment"
+          class="modal-review-textarea"
+          rows="5"
+          placeholder="Enter text"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="review-modal-send-btn">Send</button>
+    </form>
+  </div>
+</div>
