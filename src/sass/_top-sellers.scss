@@ -2,6 +2,7 @@
     --orange: #FD9222;
     --black: #111;
     --montserrat: "Monserrat", sans-serif;
+    --white : #FFF;
 
 }
 .top-orange {
@@ -59,4 +60,17 @@
     width: 1136px;
     height: 72px;
     gap: 567px
+}
+.buy-now-button {
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: normal;
+    display: flex;
+    padding: 14px 40px;
+    align-items: flex-start;
+    gap: 14px;
+    background: var(--orange);
 }
