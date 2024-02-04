@@ -1,4 +1,5 @@
 var swiper = new Swiper('.review-swiper', {
+  direction: 'horizontal',
   loop: true,
   slidesPerView: 1,
   spaceBetween: 0,
