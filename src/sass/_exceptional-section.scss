@@ -6,6 +6,7 @@
 
 body {
   font-family: var(--montserrat);
+  background-color: var(--offwhite);
 }
 
 .exceptional-section-header {
@@ -39,11 +40,13 @@ body {
 
 .exceptional-section-components {
   display: flex;
-  gap: 19px;
+  gap: 24px;
 }
 
+// COMPONENTS IMAGE BOX
+
 .components-list {
-  flex-basis: calc((100% - 19px) / 4);
+  flex-basis: calc(25% - 19px);
 }
 
 .image-box {
@@ -55,7 +58,7 @@ body {
   gap: 36px;
   border-radius: 15px;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: 18px;
@@ -74,4 +77,108 @@ body {
 .black-bg {
   background-color: var(--black);
   color: var(--white);
+}
+
+// COMPONENTS DESCRIPTION
+
+.components-info {
+  width: 270px;
+  height: 270px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: var(--white);
+}
+
+.components-info-header {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.components-info-tags {
+  display: flex;
+}
+
+.components-tags {
+  display: flex;
+  margin-bottom: 14px;
+  gap: 6px;
+}
+
+.tag {
+  display: flex;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 35px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.tag-one {
+  background: var(--orange);
+  color: var(--offwhite);
+}
+
+.tag-two {
+  border: 1px solid var(--orange);
+  background: var(--offwhite);
+}
+
+.components-info-desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  width: 100%;
+  height: 150px;
+  // white-space: nowrap;
+  // display: inline-block;
+}
+
+// FLIP ANIMATION
+
+/* Style for the card container */
+.card-container {
+  perspective: 1000px;
+  height: 270px;
+  width: 260px;
+  position: relative;
+}
+
+/* Style for the card that will flip on hover */
+.card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+/* Style for the front and back of the card */
+.front,
+.back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+/* Style for the back of the card */
+.back {
+  transform: rotateY(180deg);
+}
+
+/* Apply the flip effeft on hover */
+.card-container:hover .card {
+  transform: rotateY(180deg);
 }
