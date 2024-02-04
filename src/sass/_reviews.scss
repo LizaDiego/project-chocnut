@@ -88,4 +88,10 @@
 
 .review-btn:hover {
   cursor: pointer;
+  background-color: var(--orange);
+  color: white;
+}
+
+.modal-review-textarea {
+  resize: none;
 }
