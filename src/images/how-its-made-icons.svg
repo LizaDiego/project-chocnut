@@ -3,15 +3,11 @@
         <symbol id="bulletpoint-mobile" xmlns="http://www.w3.org/2000/svg" width="8" height="8">
             <circle cx="4" cy="4" r="3.5" fill="#4C4C4C" stroke="#ECEDED"/>
         </symbol>
-        <symbol id="play-mobile" xmlns="http://www.w3.org/2000/svg" width="14" height="15">
-            <path d="M0 15V0L14 7.5L0 15Z"/>
-        </symbol>
-        <symbol id="playbutton" xmlns="http://www.w3.org/2000/svg" width="35" height="35">
-            <path d="M13 26V11L27 18.5L13 26Z"/>
-            <circle cx="17.5" cy="17.5" r="17" stroke="white"/>
-        </symbol>
         <symbol id="play" xmlns="http://www.w3.org/2000/svg" width="44" height="44">
             <path d="M15 33V12L35 22.5L15 33Z"/>
+            <circle cx="22" cy="22" r="21.5" stroke="white"/>
+        <symbol id="playbutton" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 33V12L35 22.5L15 33Z" fill="#F5F4F4"/>
             <circle cx="22" cy="22" r="21.5" stroke="white"/>
         </symbol>
     </defs>
