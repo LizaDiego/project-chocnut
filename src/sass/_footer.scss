@@ -1,0 +1,134 @@
+footer {
+  background-color: var(--darkpurple);
+}
+
+.footer-page-link {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 32px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.48px;
+  margin-bottom: 32px;
+}
+
+.footer-title > span {
+  color: var(--orange);
+}
+
+.footer-container {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--white);
+  height: 440px;
+  text-align: left;
+  padding: 32px 0;
+}
+
+.footer-text {
+  margin-bottom: 14px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.footer-contact-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-bottom: 32px;
+}
+
+.footer-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4;
+
+  color: var(--white);
+  font-style: normal;
+}
+
+.footer-address a {
+  color: var(--white);
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.footer-nav {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.28px;
+
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--white);
+}
+
+.footer-social-svg {
+  display: flex;
+  flex-direction: row;
+  gap: 14;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-title-contact-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-contact-social {
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 262px;
+    padding: 50px 0;
+  }
+
+  .footer-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.56px;
+  }
+
+  .footer-page-link {
+    padding-top: 24px;
+  }
+
+  .footer-address {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .footer-contant-list {
+    letter-spacing: -0.28px;
+  }
+}
