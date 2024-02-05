@@ -107,6 +107,24 @@
 @media screen and (max-width:767px) {
     .mobile-description {
         display: block;
-        
+
+    }
+    .top-seller-description {
+        display: none;
+    }
+    .top-seller {
+        flex-direction: column;
+    }
+    .top-seller-list {
+        width: 100%;
+    }
+    .top-seller-list:nth-child(3) {
+    display: none;
+    }
+    .buy-now-button {
+        text-align: center;
+    }
+    .container-top-seller {
+        justify-content: center;
     }
 }
