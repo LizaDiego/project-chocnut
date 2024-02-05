@@ -2,58 +2,75 @@ html {
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 375px) {
+.how-its-made-section {
+    background-color: var(--offwhite);
+}
+
+.how-its-made-header {
+    color: var(--black);
+    text-align: center;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-its-made-header > span {
+    color: var(--orange);
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+
+.play-button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.how-its-made-text {
+    text-align: left;
+    color: var(--black);
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.how-its-made-step {
+    text-align: left;
+    color: var(--black);
+    font-family: inherit;
+}
+
+@media screen and (max-width: 375px) {
     .container {
-        width: 335px;
+        max-width: 375px;
     }
 
     .how-its-made-header {
-        color: var(--black);
-        text-align: center;
-        font-family: inherit;
         font-size: 20px;
-        font-weight: 600;
         line-height: 24px;
         letter-spacing: -0.6px;
-        text-transform: uppercase;
-        justify-content: center;
-        align-items: center;
         margin-bottom: 32px;
-    }
-
-    .orange-text {
-        color: var(--orange);
-        font-family: inherit;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 24px;
-        letter-spacing: -0.6px;
-        text-transform: uppercase;
     }
     
     .cover-container {
+        display: inline-block;
         position: relative;
-        min-width: 375px;
-        margin: auto;
-    }
-
-    .img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .play-button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
-    }
-
-    #video {
-        display: none;
-        width: 100%;
+        width: 335px;
+        height: 500px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), 
+            url(../images/how-its-made/how-its-made-video-mobile.jpg),
+            lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+        margin-top: 32px;
+        padding: 20px;
     }
 
     .how-its-made-container {
@@ -67,10 +84,7 @@ html {
     }
 
     .how-its-made-text {
-        text-align: left;
         width: 307px;
-        color: var(--black);
-        font-family: inherit;
         font-size: 18px;
         font-weight: 600;
         line-height: 24px;
@@ -83,9 +97,6 @@ html {
     }
 
     .how-its-made-step {
-        text-align: left;
-        color: var(--black);
-        font-family: inherit;
         font-size: 14px;
         font-weight: 400;
         line-height: 18px;
@@ -94,66 +105,61 @@ html {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
-        width: 736px;
-        margin: 100px auto;
+        max-width: 768px;
     }
 
     .how-its-made-header {
-        color: var(--black);
-        text-align: center;
-        font-family: inherit;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 24px;
-        letter-spacing: -0.6px;
-        text-transform: uppercase;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.72px;
         margin-bottom: 32px;
     }
 
-    .orange-text {
-        color: var(--orange);
-        font-family: inherit;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 24px;
-        letter-spacing: -0.6px;
-        text-transform: uppercase;
+    .cover-container {
+        display: inline-block;
+        position: relative;
+        width: 614px;
+        height: 400px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), 
+            url(../images/how-its-made/how-its-made-video-tablet.jpg),
+            lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
     }
 
-        .how-its-made-container {
+    .how-its-made-container {
         display: flex;
+        width: 614px;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         border-radius: 15px;
-        padding: 20px 14px;
+        padding: 32px;
         background-color: var(--white);
+        align-items: flex-start;
     }
 
     .how-its-made-text {
-        text-align: left;
-        width: 307px;
-        color: var(--black);
-        font-family: inherit;
+        width: 350px;
+        flex-direction: column;
+        align-items: flex-start;
         font-size: 18px;
-        font-weight: 600;
         line-height: 24px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 28px;
     }
 
     .how-its-made-list {
-        width: 291px;
+        display: flex;
+        width: 550px;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .how-its-made-step {
-        text-align: left;
-        color: var(--black);
-        font-family: inherit;
         font-size: 14px;
         font-weight: 400;
         line-height: 18px;
@@ -164,76 +170,31 @@ html {
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1136px;
-        margin: 128px auto;
-    }
-
-    .column-container {
-        display: flex;
-        flex-direction: column;
-        flex-basis: calc((100% - 64px) / 2);
-    }
-
-    .how-its-made-header {
-        color: var(--black);
-        text-align: center;
-        font-family: inherit;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 28px;
-        letter-spacing: -0.72px;
-        text-transform: uppercase;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 32px;
-    }
-
-    .orange-text {
-        color: var(--orange);
-        font-family: inherit;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 28px;
-        letter-spacing: -0.72px;
-        text-transform: uppercase;
+        min-width: 1200px;
     }
 
     .how-its-made-container {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px;
-        padding: 20px 14px;
-        background-color: var(--white);
+        flex-direction: row;
+        flex-basis: calc((100% - 64px) / 2);
     }
 
-    .how-its-made-text {
-        display: flex;
-        align-items: flex-start;
-        text-align: left;
-        width: 350px;
-        color: var(--black);
-        font-family: inherit;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 24px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+    .cover-container {
+        display: inline-block;
+        position: relative;
+        width: 600px;
+        height: 400px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),
+            url(../images/how-its-made/cooking-preparation.jpg),
+            lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+        flex-direction: column;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
     }
 
     .how-its-made-list {
         width: 436px;
     }
-
-    .how-its-made-step {
-        text-align: left;
-        color: var(--black);
-        font-family: inherit;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: -0.28px;
-        margin-bottom: 18px;
-    }
+    
 }
