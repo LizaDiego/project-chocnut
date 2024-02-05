@@ -82,13 +82,31 @@
     justify-content: space-between;
     margin-top: 32px;
 }
-
+.mobile-description {
+    color: var(--black);
+    font-family: var(--montserrat);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /*128.571% */
+    letter-spacing: -0.28px;
+    display: none;
+  
+}
 @media screen and (min-width:768px) and (max-width:1158px) {
     .top-seller-list:nth-child(3){
         display: none;
     }
-
+    .top-seller-list {
+        width:calc((100% - 16px) / 2) ;
+    }
 }
 //mobile
 
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+    .mobile-description {
+        display: block;
+        
+    }
+}
