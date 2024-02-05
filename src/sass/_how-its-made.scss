@@ -74,6 +74,10 @@
     .how-its-made-header {
         text-align: center;
         margin-bottom: 50px;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: -0.72px;
     }
 
     .how-benefits {
@@ -81,14 +85,26 @@
     }
 
     .how-its-made-text {
-        margin-bottom: 28px;
+        margin-bottom: 4px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24px;
+            width: 350px;
+            padding: 0;
+    }
+
+    .how-its-made-step {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: -0.28px;
     }
 
     .cover-container {
         display: inline-block;
         position: relative;
         width: 600px;
-        height: 100%;
+        height: 400px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),
             url(../images/how-its-made/cooking-preparation.jpg),
             lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
@@ -107,11 +123,33 @@
 }
 
 @media screen and (max-width: 1200px) {
+    
+    .how-its-made-header {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.72px;
+    }
+    
+    .how-its-made-text {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 350px;
+    }
 
+    .how-its-made-step {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+    
     .yt-video {
-            width: 600px;
-            height: 400px;
-        }
+        width: 600px;
+        height: 400px;
+    }
 
     .cover-container {
         display: inline-block;
@@ -139,22 +177,29 @@
         flex-direction: column;
         padding: 32px;
     }
-
-    .how-its-made-text {
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 24px;
-        width: 350px;
-    }
     
 }
 
 @media screen and (max-width: 768px) {
 
+    .how-its-made-header {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+    }
+        
+    .how-its-made-step {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+
     .yt-video {
-            width: 335px;
-            height: 500px;
-        }
+        width: 335px;
+        height: 500px;
+    }
 
                 .how-its-made-header {
                     margin-bottom: 32px;
