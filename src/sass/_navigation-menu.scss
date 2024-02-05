@@ -1,0 +1,106 @@
+/*Header*/
+body {
+    background-color: #ffffff;
+    color:black;
+}
+
+
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-container {
+    width: 1136px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page-header {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.menu,
+.navigation,
+.navmenu,
+.navsocial {
+    display: flex;
+    align-items: center;
+}
+
+.navmenu {
+    margin-left: 188px;
+}
+
+.divsocial {
+    margin-left: auto;
+}
+
+.navmenu .nav-item:not(:last-child),
+.navsocial .social-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.logo, .soclink,
+.navmenu .navmenu-link {
+    display: block;
+    padding-top: 28px;
+    padding-bottom: 32px;
+}
+
+
+.navsocial .soclink {
+    display: flex;
+    align-content: center;
+}
+
+/*Logo*/
+.logo {
+    content: "";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+    padding-top: 26px;
+}
+
+.logo-ital {
+    font-style: italic;
+}
+
+/*Menu*/
+
+.navmenu {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    letter-spacing: -0.28px;
+}
+
+.social:hover {
+    fill: #fd9222;
+}
+
+/*Social Links*/
+.icon-social {
+
+}
