@@ -1,404 +1,87 @@
 .hero-container {
-  background-image: url(../images/chocolate-covered-cocoa-powder.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/chocolate-covered-cocoa-powder1.png);
   width: 1136px;
   height: 600px;
-  border-radius: 20px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4) 100%
+    ),
+    url(../images/chocolate-covered-cocoa-powder1.png),
+    lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content-container {
+  padding: 381px 40px 40px 40px;
   display: flex;
+  width: 1056px;
+  height: 179px;
   flex-direction: column;
-  justify-content: space-between;
-  color: white;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
 }
 
 .hero-text {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 1.21429;
-  letter-spacing: -0.03em;
+  width: 484px;
+  height: 102px;
+  // flex-shrink: 0;
   color: #fff;
-  width: 40%;
-  margin-top: 30%; /* Pushes the hero text to the bottom */
-  margin-left: 40px;
-  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 121.429% */
+  letter-spacing: -0.84px;
+  margin: 32px;
+}
+.hero-buy {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  // display: flex;
+  padding: 14px 40px;
+  align-items: flex-start;
+  gap: 14px;
+  border-radius: 100px;
+  background: #fd9222;
+}
+
+.hero-how {
+  width: 103px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  display: flex;
+  width: 183px;
+  height: 45px;
+  padding: 14px 40px;
+  align-items: flex-start;
+  gap: 14px;
+  flex-shrink: 0;
 }
 
 .hero-button-container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* Align buttons to the start (left) */
-  margin-bottom: 40%;
-  margin-left: 30px;
-}
-
-.hero-buttons {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.list-button {
-  display: inline-block;
-  margin-left: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  color: #fff;
-}
-
-.list-scrolldown {
-  display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 4;
-  letter-spacing: -0.03em;
-  color: #fff;
-  align-items: center;
-}
-
-.text-scrolldown {
-  padding: 10px 10px 10px 10px;
-}
-
-.top-header.container {
-  height: 72px;
-  display: flex;
-}
-.scroll-button {
-  display: flex;
-}
-
-.hero-button1 {
-  background-color: orange;
-  display: flex;
-  padding: 14px, 40px, 14px, 40px;
-  font-family: inherit;
-  color: var(--white);
-  cursor: pointer;
-  display: block;
-  min-width: 144px;
+  width: 341px;
   height: 45px;
-  border: none;
-  border-radius: 4px;
-  margin-left: 0px;
-  border-radius: 100px;
-  // position: absolute;
-  // bottom: 10%;
-}
-
-.hero-button2 {
-  background-color: transparent;
-  display: flex;
-  padding: 14px, 40px, 14px, 40px;
-  font-family: inherit;
-  color: var(--white);
-  cursor: pointer;
-  display: block;
-  min-width: 200px;
-  height: 45px;
-  border-color: white;
-  margin-right: 30px;
-  border-radius: 4px;
-  margin-left: 10px;
-  border-radius: 100px;
-  // position: absolute;
-  // bottom: 10%;
-}
-
-/* Modal CSS */
-
-.modal-buy {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16667;
-  letter-spacing: -0.03em;
-  color: #fd9222;
-  display: flex;
-  justify-content: center;
-}
-.modal-now {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16667;
-  letter-spacing: -0.03em;
-  color: #111111;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.product-container {
-  display: flex;
-  justify-content: center;
-}
-
-.list.product {
-  list-style: none;
-  display: flex;
-  padding: 30px;
-  margin: 0;
-  gap: 20px;
-}
-
-.product-list {
-  text-align: center;
-  border: 2px solid #ddd;
-  border-radius: 15px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 160px;
-  height: 196px;
-  padding: 30px;
-}
-
-.product-list img {
-  max-width: 100%;
-  height: auto;
-}
-
-.product-name {
-  margin: 20;
-  border: 1px solid #ddd;
-  border-radius: 15px;
-  padding: 1px;
-  background-color: #f5f5f5;
-  width: 80%;
-  box-sizing: border-box;
-}
-
-.order-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--navy-blue-modal);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.modal-window {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  width: 609px;
-  min-height: auto;
-  // background: var(--dairy);
-  background-color: #fff;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px;
-}
-
-.modal-button-close {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--cornflower);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-button-close:hover,
-.modal-button-close:focus {
-  background-color: var(--ocean);
-  border: none;
-}
-
-.modal-button-close-svg {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-button-close:hover,
-.modal-button-close:focus {
-  fill: var(--white);
-}
-
-.modal-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-  margin-bottom: 16px;
-}
-
-.modal-form {
-  margin-bottom: 8px;
-}
-
-.modal-form-label {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--light-slate);
-  display: block;
-  margin-bottom: 4px;
-}
-
-// .modal-form-div {
-//   position: relative;
-// }
-
-.modal-form-input {
-  width: 100%;
-  height: 40px;
-  border: 1px solid;
-  border-color: gray;
-  border-radius: 4px;
-  background-color: transparent;
-  padding-left: 38px;
-  outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-input:focus {
-  border-color: var(--iris);
-}
-
-/* To focus on the SVG icon */
-.modal-form-input:focus + .modal-form-input-icon {
-  fill: var(--iris);
-}
-
-.modal-form-input-icon {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-comment {
-  margin-bottom: 16px;
-}
-
-.modal-form-textarea {
-  width: 100%;
-  height: 120px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--navy-blue-modal);
-  border: 1px solid;
-  border-color: gray;
-  border-radius: 4px;
-  background-color: transparent;
-  padding: 8px 16px;
-  outline: transparent;
-  resize: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-textarea:focus {
-  border-color: var(--iris);
-}
-
-.modal-acceptance {
-  margin-bottom: 24px;
-}
-
-.modal-checkbox-label {
-  display: block;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--light-slate);
-}
-
-.privacy-check {
-  width: 16px;
-  height: 16px;
-  border: 1px solid var(--navy-blue-modal);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-  margin-right: 8px;
-}
-
-.modal-checkbox:checked + .modal-checkbox-label .privacy-check {
-  background-color: var(--ocean);
-  border: none;
-  fill: var(--cloud);
-}
-
-.privacy-check-policy {
-  color: var(--iris);
-}
-
-.modal-form-button {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  cursor: pointer;
-  background-color: #fd9222;
-  border: none;
-  border-radius: 100px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* Not included in GoIT, I just added based from Figma */
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin: 0 auto;
-}
-
-/* Not included in GoIT, I just added based from Figma */
-.modal-form-button:hover,
-.modal-form-button:focus {
-  background-color: #fcf1e0;
-  border: none;
-  color: #fd9222;
-  border-color: #fd9222;
-  border: 1px;
-}
-
-.modal-form-div {
-  display: flex;
-  align-items: center;
-}
-
-.modal-form-label {
-  margin-right: 5px; /* Adjust the margin as needed for spacing between label and input */
-}
-
-.modal-form-input {
-  /* Add your input styles here */
-}
-
-.modal-form-input-icon {
-  margin-left: 5px; /* Adjust the margin as needed for spacing between input and icon */
+  align-items: flex-start;
+  gap: 14px;
+  flex-shrink: 0;
+  padding-bottom: 100px;
 }
