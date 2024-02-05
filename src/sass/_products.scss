@@ -3,16 +3,6 @@
   text-align: center;
 }
 
-.product-title {
-  color: var(--black);
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: -0.72px;
-  text-transform: uppercase;
-
-  margin-bottom: 50px;
-}
-
 .product-title > span {
   color: var(--orange);
 }
@@ -27,7 +17,7 @@
 }
 
 .product-image {
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 8px;
 }
 
@@ -62,10 +52,6 @@
 }
 
 @media screen and (max-width: 375px) {
-  .container {
-    width: 335px;
-  }
-
   .product-card {
     padding: 32px 52px;
   }
@@ -79,14 +65,14 @@
 
     margin-bottom: 32px;
   }
+
+  .swiper-pagination {
+    position: relative;
+    margin-top: 32px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    width: 335px;
-    margin: 72px auto;
-  }
-
   .product-card {
     padding: 32px 52px;
   }
@@ -97,8 +83,7 @@
     line-height: 24px;
     letter-spacing: -0.6px;
     text-transform: uppercase;
-
-    margin-bottom: 50px;
+    margin-bottom: 32px;
   }
 
   .swiper-pagination {
@@ -108,35 +93,52 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    width: 335px;
-    margin: 72px auto;
-  }
   .swiper-pagination {
     position: relative;
     margin-top: 20px;
   }
+
+  .product-title {
+    color: var(--black);
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 736px;
-    margin: 100px auto;
-  }
   .swiper-pagination {
     position: relative;
     margin-top: 32px;
+  }
+
+  .product-title {
+    color: var(--black);
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    width: 1136px;
-    margin: 128px auto;
-  }
   .swiper-pagination {
     position: relative;
     margin-top: 32px;
+
+    top: 23px;
+  }
+
+  .product-title {
+    color: var(--black);
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
   }
 }
 
@@ -168,4 +170,11 @@
   width: 28px;
   border-radius: 20px;
   background-color: var(--orange);
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  top: 0;
 }
