@@ -1,4 +1,5 @@
-var swiper = new Swiper('.swiper', {
+var swiper = new Swiper('.review-swiper', {
+  direction: 'horizontal',
   loop: true,
   slidesPerView: 1,
   spaceBetween: 0,
@@ -8,16 +9,16 @@ var swiper = new Swiper('.swiper', {
       spaceBetween: 0,
     },
     768: {
-      slidesPerView: 2.6,
-      spaceBetween: 18,
+      slidesPerView: 2,
+      spaceBetween: 16,
     },
     1200: {
-      slidesPerView: 4,
-      spaceBetween: 18,
+      slidesPerView: 3,
+      spaceBetween: 28,
     },
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '.review-swiper-pagination',
     clickable: true,
   },
 });

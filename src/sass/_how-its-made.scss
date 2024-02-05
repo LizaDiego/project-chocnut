@@ -1,0 +1,241 @@
+// html {
+//     box-sizing: border-box;
+// }
+
+.how-its-made-section {
+    background-color: var(--offwhite);
+}
+
+.how-its-made-header {
+    color: var(--black);
+    text-align: center;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-its-made-header > span {
+    color: var(--orange);
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+
+.play-button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.how-its-made-text {
+    text-align: left;
+    color: var(--black);
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.how-its-made-step {
+    text-align: left;
+    color: var(--black);
+    font-family: inherit;
+}
+
+.yt-video {
+    position: absolute;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.cover-container {
+    z-index: 1;
+}
+
+// screen greater than 1200px
+@media screen and (min-width: 1200px) {
+
+    .yt-video {
+        width: 600px;
+        height: 400px;
+    }
+
+    .how-content {
+        display: flex;
+        flex-direction: row;
+        // flex-basis: calc((100% - 64px) / 2);
+        gap: 20px;
+    }
+
+    .how-its-made-header {
+        text-align: center;
+        margin-bottom: 50px;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: -0.72px;
+    }
+
+    .how-benefits {
+        padding: 32px;
+    }
+
+    .how-its-made-text {
+        margin-bottom: 4px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24px;
+            width: 350px;
+            padding: 0;
+    }
+
+    .how-its-made-step {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: -0.28px;
+    }
+
+    .cover-container {
+        display: inline-block;
+        position: relative;
+        width: 600px;
+        height: 400px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),
+            url(../images/how-its-made/cooking-preparation.jpg),
+            lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+        flex-direction: column;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .how-its-made-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .how-its-made-header {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.72px;
+    }
+    
+    .how-its-made-text {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 350px;
+    }
+
+    .how-its-made-step {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+    
+    .yt-video {
+        width: 600px;
+        height: 400px;
+    }
+
+    .cover-container {
+        display: inline-block;
+        position: relative;
+        width: 614px;
+        height: 400px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),
+            url(../images/how-its-made/cooking-preparation.jpg),
+            lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+        flex-direction: column;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .how-its-made-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px;
+    }
+
+    .how-content {
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .how-its-made-header {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+    }
+        
+    .how-its-made-step {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+
+    .yt-video {
+        width: 335px;
+        height: 500px;
+    }
+
+                .how-its-made-header {
+                    margin-bottom: 32px;
+                }
+
+    .cover-container {
+        display: inline-block;
+        position: relative;
+        width: 335px;
+        height: 500px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),
+            url(../images/how-its-made/cooking-preparation.jpg),
+            lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+        flex-direction: column;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .how-its-made-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 14px;
+    }
+
+    .how-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .how-its-made-text {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 307px;
+    }
+
+}
