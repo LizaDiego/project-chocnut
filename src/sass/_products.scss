@@ -27,6 +27,11 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.36px;
+
+  font-family: var(--montserrat);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .product-text {
@@ -49,6 +54,9 @@
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
+
+  font-family: var(--montserrat);
+  font-style: normal;
 }
 
 @media screen and (max-width: 375px) {
@@ -64,6 +72,10 @@
     text-transform: uppercase;
 
     margin-bottom: 32px;
+
+    font-family: var(--montserrat);
+    font-style: normal;
+    font-weight: 600;
   }
 
   .swiper-pagination {
@@ -84,6 +96,13 @@
     letter-spacing: -0.6px;
     text-transform: uppercase;
     margin-bottom: 32px;
+
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.6px;
   }
 
   .swiper-pagination {
@@ -105,6 +124,13 @@
     letter-spacing: -0.6px;
     text-transform: uppercase;
     margin-bottom: 32px;
+
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.6px;
   }
 }
 
@@ -121,6 +147,11 @@
     letter-spacing: -0.72px;
     text-transform: uppercase;
     margin-bottom: 50px;
+
+    font-family: var(--montserrat);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
   }
 }
 
@@ -139,6 +170,10 @@
     letter-spacing: -0.72px;
     text-transform: uppercase;
     margin-bottom: 50px;
+
+    font-family: var(--montserrat);
+    font-style: normal;
+    font-weight: 600;
   }
 }
 
