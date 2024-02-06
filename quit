@@ -1,0 +1,555 @@
+[33mcommit 46e38b98e24d1b2c301aa5b29595ebcbaf62b12c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mhow-its-made[m[33m)[m
+Merge: e1af644 47d9586
+Author: LizaDiego <adeliza@msn.com>
+Date:   Mon Feb 5 12:03:07 2024 +0800
+
+    Merge branch 'main' of https://github.com/LizaDiego/project-chocnut into how-its-made
+
+[33mcommit 47d95867fd1b035e72b17d4f82aa253e961712c6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 57801d9 86e8eeb
+Author: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+Date:   Mon Feb 5 11:18:51 2024 +0800
+
+    Merge pull request #10 from LizaDiego/footer
+    
+    Footer
+
+[33mcommit 86e8eebb7bc7c19e7c6bcf62ae6c5c3c91c4ae36[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 09:41:25 2024 +0800
+
+    add footer
+
+[33mcommit 57801d980a8d3712abe7f4c3b37bebd760584f0d[m
+Merge: d57b746 ac27d78
+Author: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+Date:   Mon Feb 5 07:12:44 2024 +0800
+
+    Merge pull request #9 from LizaDiego/reviews
+    
+    Reviews
+
+[33mcommit e7a78e80456685d3c95e9bd3987e3ccdfaf3f656[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 05:41:30 2024 +0800
+
+    initial commit
+
+[33mcommit 7f1f6237c63b6df6d47284816f810045e6ff3a39[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 05:38:06 2024 +0800
+
+    add footer social svg
+
+[33mcommit ac27d7862816f9e7c782191affae48fb3a600279[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 05:10:33 2024 +0800
+
+    add button transition
+
+[33mcommit 13c9dec3bac069156dbef6bc2afe3a403eb9b0e7[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 04:55:50 2024 +0800
+
+    add review modal
+
+[33mcommit 05c69836f88b1d1d65734c866f46c02fdec684ff[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 04:55:28 2024 +0800
+
+    add svg for review-modal
+
+[33mcommit 6bd456d8b153cf233efaffa812330fceee9e02d4[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 04:54:46 2024 +0800
+
+    update reviews section
+
+[33mcommit b386c90dd12dfa2565aae66260ca97f186ae5316[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 04:54:04 2024 +0800
+
+    connect css
+
+[33mcommit 5b55f58934cb534ada70683ebb6082933507e921[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 04:53:26 2024 +0800
+
+    add modal to the index
+
+[33mcommit 503839c9282f96671f547379b9a8676fa6fda0f6[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 00:24:13 2024 +0800
+
+    update review-modal
+
+[33mcommit 38cb6dfaf187ff1b4903e42af653614a6d9cab6c[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Mon Feb 5 00:23:27 2024 +0800
+
+    add review-modal.js
+
+[33mcommit e1af6443e7ad2f34d2b6631e1c09624e9bed1951[m[33m ([m[1;31morigin/how-its-made[m[33m)[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sun Feb 4 18:34:40 2024 +0800
+
+    update
+
+[33mcommit 3c84103a85d460d34e7b4c1980a8c3030b74315f[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sun Feb 4 18:10:20 2024 +0800
+
+    update
+
+[33mcommit a304ecbbe396c84f4c07a21306b151b756d19019[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sun Feb 4 15:49:55 2024 +0800
+
+    update
+
+[33mcommit 23a7ca7e4317d1e3ea69e6684abd0e90e84d02bb[m[33m ([m[1;31morigin/reviews[m[33m)[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 14:22:47 2024 +0800
+
+    update
+
+[33mcommit c826976d1303c8d3ad7d2859f7427b92166a6258[m
+Merge: 749fa90 d57b746
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 14:09:13 2024 +0800
+
+    Merge branch 'main' of https://github.com/LizaDiego/project-chocnut into reviews
+
+[33mcommit 749fa906365b6debbf475e77eb93855598e15b67[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 13:51:47 2024 +0800
+
+    add image for retina display
+
+[33mcommit d57b746b89b27b9320b1cece0e678c7c1b9cfd9f[m
+Merge: 2b421e6 d62e6a0
+Author: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+Date:   Sun Feb 4 13:38:28 2024 +0800
+
+    Merge pull request #8 from LizaDiego/products
+    
+    Products
+
+[33mcommit d62e6a0c19e2be6c8c5be5552a065a8e65224498[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 13:04:53 2024 +0800
+
+    add srcset attribute for retina display
+
+[33mcommit 61d10b4c7e248b83ee31419e9b9c367f826a5f44[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 12:57:38 2024 +0800
+
+    Add image for retina display
+
+[33mcommit 10657117f8f6e63b3c6aee7c5f9255f21ad53c02[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 12:29:07 2024 +0800
+
+    remove images
+
+[33mcommit a51bc88101a0957006e8456d76d595cf0804ea8f[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 12:21:59 2024 +0800
+
+    add image optimazation and retina support
+
+[33mcommit a945a51f48abbc38e04ac4e146b7371f24322262[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 12:19:54 2024 +0800
+
+    fix styles
+
+[33mcommit 8151a660ce05356deac6f8cefefa4b7eca9d1add[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 09:53:49 2024 +0800
+
+    change review-img width to 100%
+
+[33mcommit c15d317d564af0659fc51bd205b67b1017310a5c[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 09:52:50 2024 +0800
+
+    add alt attribute for img
+
+[33mcommit 6280007ffef565bd1f6904a5567718c564b5d763[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 08:29:11 2024 +0800
+
+    remove duplicate style
+
+[33mcommit 765d6fc17e5ee53cc97c2a0671c91c861ce541ec[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 07:22:08 2024 +0800
+
+    update review-name
+
+[33mcommit 3bd13c2e2027afbf774706e7e952398a95b2fe80[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 07:20:10 2024 +0800
+
+    update
+
+[33mcommit 0802b910976e29186b000637a5cd979f14686e17[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 07:19:36 2024 +0800
+
+    Add review section
+
+[33mcommit 71c04e803c5d3304a27342f3dd4738bb6c716778[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 07:18:37 2024 +0800
+
+    Add review images
+
+[33mcommit 03b4b26a4baacd0494bc32d72a98c79cc87c31fa[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sun Feb 4 07:18:00 2024 +0800
+
+    Add review-swiper.js
+
+[33mcommit 95172e27fcc1e1a973a7040bb7b8cebe60518de5[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sun Feb 4 04:22:03 2024 +0800
+
+    Update
+
+[33mcommit 2b421e623e447885e170462c100df7926ba14cf4[m
+Merge: 10fd4bb ba553b1
+Author: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+Date:   Sat Feb 3 23:05:16 2024 +0800
+
+    Merge pull request #7 from LizaDiego/navigation-menu
+    
+    Navigation menu
+
+[33mcommit ba553b1f2cc2e4cf1d6819afe50ff8e15e24dd91[m[33m ([m[1;31morigin/navigation-menu[m[33m)[m
+Author: Balmesgoit <147357246+Balmesgoit@users.noreply.github.com>
+Date:   Sat Feb 3 23:03:40 2024 +0800
+
+    update
+
+[33mcommit 1957a4519e48ef4cc47ba7a50146be0238611bd0[m
+Merge: dcdb530 10fd4bb
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sat Feb 3 22:33:39 2024 +0800
+
+    Merge branch 'main' into how-its-made
+
+[33mcommit 10fd4bbb50477cd3b2577bfe543da2f5f99f94ad[m[33m ([m[1;32mmain[m[33m)[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sat Feb 3 22:31:05 2024 +0800
+
+    update global style
+
+[33mcommit d41e307709fab69d5a20e1bd2548e43d2d9fe1ca[m
+Author: Balmesgoit <147357246+Balmesgoit@users.noreply.github.com>
+Date:   Sat Feb 3 22:17:28 2024 +0800
+
+    Update index.html
+
+[33mcommit dcdb5301126c72eb1079dca5c178672b7249a7ab[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sat Feb 3 22:16:21 2024 +0800
+
+    update
+
+[33mcommit 4aae4200836b45a4d5f5275563818ddb527ab4a8[m
+Merge: 5bade18 1e66cba
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sat Feb 3 21:05:35 2024 +0800
+
+    Merge branch 'main' into how-its-made
+
+[33mcommit 5bade18a12ef2b2c2ce92d4983630f817992d704[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Sat Feb 3 21:01:47 2024 +0800
+
+    update
+
+[33mcommit 8134c2186061c8107e35b7285b87633f8ffa750d[m
+Author: Balmesgoit <147357246+Balmesgoit@users.noreply.github.com>
+Date:   Sat Feb 3 16:35:10 2024 +0800
+
+    Update index.html
+
+[33mcommit 015334e2796364709aa1f157a6fbfca796aae88b[m
+Merge: 5c479fa 1e66cba
+Author: Balmesgoit <147357246+Balmesgoit@users.noreply.github.com>
+Date:   Sat Feb 3 16:32:21 2024 +0800
+
+    Merge branch 'main' into navigation-menu
+
+[33mcommit 5c479fac455ddfaf045b7941f1223d3b102d2453[m
+Author: Balmesgoit <147357246+Balmesgoit@users.noreply.github.com>
+Date:   Sat Feb 3 16:04:27 2024 +0800
+
+    update
+
+[33mcommit 1e66cbaf24ae5b2e6f299458148bd9b49ec8dd4a[m
+Merge: 99d5056 0fe0c05
+Author: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+Date:   Sat Feb 3 08:52:35 2024 +0800
+
+    Merge pull request #6 from LizaDiego/products
+    
+    Products
+
+[33mcommit 0fe0c053d29ba3db4716a1e9f0c0a9cd93384410[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sat Feb 3 08:31:19 2024 +0800
+
+    Refactor code
+
+[33mcommit 2bb2972609b14dabf12a1b5b9f5f2986a1cba754[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sat Feb 3 08:29:55 2024 +0800
+
+    Add loop for swiper
+
+[33mcommit 9836784da8862ce1c81a7018200783d3b7ab4d9d[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sat Feb 3 07:26:16 2024 +0800
+
+    remove cursor pointer
+
+[33mcommit c751ba68e59374a3abc9812c29ead7e50e259157[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sat Feb 3 06:44:50 2024 +0800
+
+    Update products content
+
+[33mcommit a498306143ee6f24c305fcf4e4485512e7456592[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sat Feb 3 06:44:17 2024 +0800
+
+    Update product-swiper.js
+
+[33mcommit 1dcb408b3f964824c852bdff1574806564c44383[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sat Feb 3 06:26:51 2024 +0800
+
+    Add pagination style
+
+[33mcommit 2fe3fa279faa6a9ddba9116936fb34d88a194517[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sat Feb 3 05:54:56 2024 +0800
+
+    Update products section
+
+[33mcommit 80697af1c1a6b04f6e12e28fd8c0d14389b6f8c3[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Sat Feb 3 02:58:42 2024 +0800
+
+    Update product-swiper.js
+
+[33mcommit 99d5056627bc849d9f3d162e871b7c93deae3c90[m
+Merge: 8bd7d2a abaeb59
+Author: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+Date:   Sat Feb 3 00:47:14 2024 +0800
+
+    Merge pull request #5 from LizaDiego/LizaDiego-patch-1
+    
+    Update _common.scss
+
+[33mcommit abaeb594325ed6da7ba9bd529d3dacb33feaae75[m[33m ([m[1;31morigin/LizaDiego-patch-1[m[33m)[m
+Author: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+Date:   Sat Feb 3 00:46:54 2024 +0800
+
+    Update _common.scss
+    
+    Signed-off-by: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+
+[33mcommit 8bd7d2a23576c6edbda2a34c4f7300a676b03c5d[m
+Merge: bd819f2 6b1c573
+Author: project-chocnut <150027785+LizaDiego@users.noreply.github.com>
+Date:   Fri Feb 2 22:09:46 2024 +0800
+
+    Merge pull request #4 from LizaDiego/products
+    
+    Products
+
+[33mcommit 6b1c5735c9c4a9cea5d0903b62dca8b3b1e609c7[m[33m ([m[1;31morigin/products[m[33m)[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Fri Feb 2 22:02:43 2024 +0800
+
+    update index.html
+
+[33mcommit 370955027785ededb7e8dd2675c2a39d04e760c3[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Fri Feb 2 13:16:12 2024 +0800
+
+    Add new line for products
+
+[33mcommit c8b95e315b3777128408625957a52b31ef3da858[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Fri Feb 2 13:14:29 2024 +0800
+
+    add structure for html semantics
+
+[33mcommit 2ae014ae8e72a252cc7cce33580b8ca6467b4fce[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Fri Feb 2 13:01:26 2024 +0800
+
+    Added a script and link tag for swiper
+
+[33mcommit 91bb7ea32890b726e22bf6bda16db67ba524edf9[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Fri Feb 2 12:53:49 2024 +0800
+
+    Add product-swiper.js
+
+[33mcommit 8ef75b7af1d87d95d6aed3c64736f088a355be01[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Fri Feb 2 12:32:26 2024 +0800
+
+    Add product images
+    
+    - image compression
+
+[33mcommit fe24ce4ba353c8efc9d37b4b71ae1cfe772a4e38[m
+Author: Balmesgoit <147357246+Balmesgoit@users.noreply.github.com>
+Date:   Fri Feb 2 10:15:41 2024 +0800
+
+    update
+
+[33mcommit 3fe6f1d4bd35f9e9baa31c2be472446af3d57d99[m
+Author: Balmesgoit <147357246+Balmesgoit@users.noreply.github.com>
+Date:   Fri Feb 2 09:03:09 2024 +0800
+
+    update
+
+[33mcommit bd819f24811106472ef8818e93dab76549c03410[m
+Merge: d39d365 2452de3
+Author: LizaDiego <150027785+LizaDiego@users.noreply.github.com>
+Date:   Fri Feb 2 01:05:33 2024 +0800
+
+    Merge pull request #3 from LizaDiego/LizaDiego-patch-1
+    
+    Update _common.scss
+
+[33mcommit 2452de3f073108d1c092f800da45f36ff2cc8c68[m
+Author: LizaDiego <150027785+LizaDiego@users.noreply.github.com>
+Date:   Fri Feb 2 01:05:10 2024 +0800
+
+    Update _common.scss
+    
+    Signed-off-by: LizaDiego <150027785+LizaDiego@users.noreply.github.com>
+
+[33mcommit f071195ad7c734c5f8a28683769934e92ecc3792[m
+Merge: 592c365 cc054a8
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Thu Feb 1 21:26:39 2024 +0800
+
+    Merge branch 'Benifits-section' of https://github.com/LizaDiego/project-chocnut into products
+
+[33mcommit cc054a81e9a624f59fe4e879b37cb84f2cba525e[m[33m ([m[1;31morigin/Benifits-section[m[33m)[m
+Author: Kristine Lopez <150027661+kristine19lopez@users.noreply.github.com>
+Date:   Thu Feb 1 21:24:11 2024 +0800
+
+    Add benefits section
+
+[33mcommit 592c365ac3817be618a91c8c652f11c839d55b0d[m
+Merge: 9eb98c9 d39d365
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Thu Feb 1 20:28:33 2024 +0800
+
+    Merge branch 'main' of https://github.com/LizaDiego/project-chocnut into products
+
+[33mcommit d39d36510dc2ea66b7fe119af65790b307f6d206[m
+Merge: e45edbd ccfcad3
+Author: LizaDiego <150027785+LizaDiego@users.noreply.github.com>
+Date:   Thu Feb 1 20:27:21 2024 +0800
+
+    Merge pull request #2 from LizaDiego/LizaDiego-patch-1
+    
+    Update _common.scss
+
+[33mcommit ccfcad3c1a6bcd28bb6b8c82ebe19642935eea81[m
+Author: LizaDiego <150027785+LizaDiego@users.noreply.github.com>
+Date:   Thu Feb 1 20:26:56 2024 +0800
+
+    Update _common.scss
+    
+    Signed-off-by: LizaDiego <150027785+LizaDiego@users.noreply.github.com>
+
+[33mcommit 9eb98c91ae730f2b059b2f752c0510618cf3c720[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Thu Feb 1 09:17:00 2024 +0800
+
+    Update product section
+
+[33mcommit bc731d0887d0ed6e3c751fb11cea52f47395a38c[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Thu Feb 1 09:15:02 2024 +0800
+
+    Add images for chocolate products
+
+[33mcommit 6d44181c28aa2f778bfe02e2c8e4f91ec499d23f[m
+Author: Morley Cellan <morleycellan@gmail.com>
+Date:   Thu Feb 1 01:54:13 2024 +0800
+
+    Add Our Products section
+    
+    - products.html
+    - _products.scss
+
+[33mcommit e45edbd213f57d75194b97778f1f10b76eb77707[m[33m ([m[1;31morigin/hero-section[m[33m)[m
+Merge: afc65e8 82f5ade
+Author: LizaDiego <150027785+LizaDiego@users.noreply.github.com>
+Date:   Wed Jan 31 22:14:36 2024 +0800
+
+    Merge pull request #1 from LizaDiego/how-its-made
+    
+    add how-its-made
+
+[33mcommit 82f5ade1f2ced8d6a0543c3ad348975e02923c36[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Wed Jan 31 21:54:48 2024 +0800
+
+    add how-its-made
+
+[33mcommit afc65e8de0994874fb1c35c5b571e2a795164e8f[m
+Author: LizaDiego <adeliza@msn.com>
+Date:   Wed Jan 31 21:25:37 2024 +0800
+
+    remove example
+
+[33mcommit 72971a147aa8a1b3db291acf85311ee55962da2e[m
+Author: AndriSkrypka <102464331+AndriSkrypka@users.noreply.github.com>
+Date:   Mon Oct 30 12:21:44 2023 +0200
+
+    fix text readme.uk
+
+[33mcommit 237e27ac29119cdebd58aa38a11e260c842a0e90[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Mon Jun 26 21:00:27 2023 +0300
+
+    Update README.ro.md
+
+[33mcommit e44bf0d72bf4766ee3854702889f80f8ca56569e[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Mon Jun 26 20:59:29 2023 +0300
+
+    Create README.ro.md
+    
+    RO translation added
+
+[33mcommit 96b0fa681ad3518f7da78c977174273d927dd615[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Wed Oct 19 12:41:21 2022 -0600
+
+    Update README.es.md
+    
+    to spanish
+
+[33mcommit 78f4c2043ce6d33742cf1a6fcdbe4911a2fc8621[m
+Author: goit-i18n <84774169+goit-i18n@users.noreply.github.com>
+Date:   Wed Oct 19 18:07:58 2022 +0400
+
+    Update README.en.md

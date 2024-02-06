@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none">
+  <symbol id="close-x">
+  <path d="M21 7L7 21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7 7L21 21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="modal-close">
+  <path id="Vector" d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol><symbol id="phone-icon">
+  <path d="M14.7263 13.8651L12.8881 13.6552C12.4467 13.6046 12.0125 13.7566 11.7013 14.0677L10.3697 15.3993C8.3217 14.3572 6.64276 12.6855 5.60067 10.6303L6.93947 9.29144C7.25065 8.98025 7.40263 8.54605 7.35197 8.1046L7.1421 6.28092C7.05526 5.55 6.44013 5 5.70198 5H4.45002C3.63226 5 2.952 5.68026 3.00266 6.49802C3.38621 12.6783 8.32894 17.6138 14.5019 17.9973C15.3197 18.048 15.9999 17.3677 15.9999 16.55V15.298C16.0072 14.5671 15.4572 13.952 14.7263 13.8651Z" />
+  </symbol>
+
+  <symbol id="flag-svg">
+  <g clip-path="url(#clip0_14922_3804)">
+  <path d="M31.8318 1.05835H0.242676V24.5665H31.8318V1.05835Z" fill="#FFD700"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.242676 1.05835H31.8318V12.8124H0.242676V1.05835Z" fill="#0057B7"/>
+  </g>
+  <defs>
+  <clipPath id="clip0_14922_3804">
+  <rect width="32" height="24" fill="white" transform="translate(0 0.800049)"/>
+  </clipPath>
+  </defs>
+  </symbol>
+
+</svg>

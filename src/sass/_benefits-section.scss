@@ -1,0 +1,142 @@
+.benefits {
+    display: flex;
+    width: 1200px;
+    padding: 39px 50px 50px 50px;
+    justify-content: center;
+    align-items: center;
+    background: #1E1823;
+}
+
+.benefits-container {
+display: flex;
+width: 1100px;
+height: 255px;
+justify-content: center;
+align-items: flex-start;
+gap: 70px;
+flex-shrink: 0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.sec {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.sep{
+    display: inline;
+    position: relative;
+    
+    
+}
+.sep::after{
+content: '';
+background:  rgba(255, 255, 255, 0.50);
+width: 1px;
+height: 124px;
+display: block;
+position: absolute;
+top: 46%;
+right: -5%;
+transform: translateY(-42%);
+
+}
+.icon-container {
+display: flex;
+width: 308px;
+height: 243px;
+flex-direction: column;
+align-items: flex-start;
+gap: 22px;
+}
+
+.icons {
+    display: flex;
+    width: 62px;
+    height: 62px;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 365px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+  
+
+.title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+// media queries
+@media screen and (max-width: 374px) {
+    .benefits {
+        display: flex;
+        padding: 20px;
+        flex-direction: row;
+        width: 375px;
+        height: 758px;
+        align-items: flex-start;
+    }
+    .sec {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 226px;
+        padding-right: 28px;
+    }
+    .sep::after {
+        content: none;
+    }
+    .icon-container {
+        gap: 18px;
+        height: 236px;
+        width: 335px;
+        padding-right: 28px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .benefits {
+        height: 620px;
+        padding: 50px 32px;
+        align-items: stretch;
+    }
+    .sec {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex-shrink: 0;
+
+    }
+    .icon-container {
+        justify-content: center;
+    }
+}
