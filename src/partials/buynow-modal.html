@@ -1,0 +1,135 @@
+<div class="buynow-modal is-hidden-buynow" data-modal-buynow>
+  <div class="modal-window-buynow">
+    <button
+      type="button"
+      class="modal-button-close-buynow"
+      data-modal-close-buynow
+    >
+      <svg
+        class="modal-close-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        width="28"
+        height="28"
+      >
+        <use href="./images/buynow-modal/buynow-modal.svg#close-x"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-buynow-title"><span>BUY</span> NOW</h2>
+    <div class="product-container">
+      <ul class="list product">
+        <li class="product-list">
+          <div class="product-image-and-button">
+            <img
+              src="./images/choco1.png"
+              width="120"
+              height="107"
+              alt="Choco1"
+            />
+            <button class="product-name">100 g</button>
+          </div>
+        </li>
+        <li class="product-list">
+          <div class="product-image-and-button">
+            <img
+              src="./images/choco2.png"
+              width="120"
+              height="107"
+              alt="Choco1"
+            />
+            <button class="product-name">200 g</button>
+          </div>
+        </li>
+        <li class="product-list">
+          <div class="product-image-and-button">
+            <img
+              src="./images/choco3.png"
+              width="120"
+              height="107"
+              alt="Choco1"
+            />
+            <button class="product-name">300 g</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <form action="" class="modal-buynow-form" id="form" name="form">
+      <div class="modal-buynow-gap">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Name" required />
+        <label for="surname">Surname</label>
+        <input
+          id="surname"
+          name="surname"
+          type="text"
+          placeholder="Surname"
+          required
+        />
+        <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <label for="phonenumber">Phone Number</label>
+        <div class="modal-buynows-field">
+          <input
+            class="input-number-buynows"
+            id="tel"
+            name="telephone"
+            type="tel"
+            placeholder="Phone number"
+            required
+          />
+          <span class="wrapper-phone"
+            ><svg
+              class="modal-flag-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+            >
+              <use href="./images/buynow-modal/buynow-modal.svg#flag-svg"></use>
+            </svg>
+            <span class="phone-number-buynows">+380</span>
+          </span>
+        </div>
+
+        <label for="cardnumber">Card Number</label>
+        <div class="modal-buynows-field">
+          <input
+            class="input-card-buynows"
+            id="tel"
+            name="telephone"
+            type="tel"
+            placeholder="Card number"
+            required
+          />
+          <span class="wrapper-card"
+            ><svg
+              class="modal-card-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+            >
+              <use href="./images/buynow-modal/buynow-modal.svg#card-svg"></use>
+            </svg>
+          </span>
+        </div>
+
+        <label for="comment">Comment</label>
+        <textarea
+          id="comment"
+          name="comment"
+          class="modal-buynow-textarea"
+          rows="5"
+          placeholder="Enter text"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="buynow-modal-send-btn">Submit</button>
+    </form>
+  </div>
+</div>
