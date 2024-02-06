@@ -302,6 +302,7 @@
   .modal-window-buynow {
     width: 311px;
     height: 994px;
+    top: 60%;
   }
   .product-container {
     display: flex;
@@ -315,10 +316,8 @@
     margin: 0;
     gap: 20px;
     flex-direction: column;
-    padding: 8px 16px;
     justify-content: center;
     align-items: center;
-    width: 400px;
   }
 
   .product-list {
@@ -337,12 +336,34 @@
   }
 
   .product-name {
-    margin: 20;
+    margin: 0px 10px 0px 60px;
     border: 1px solid #ddd;
     border-radius: 15px;
     padding: 1px;
     background-color: #f5f5f5;
-    width: 80%;
-    box-sizing: border-box;
+  }
+
+  .product-image-and-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // margin-bottom: 30px;
+    width: 100%;
+    // justify-content: center; /* Center the content horizontally */
+    flex-wrap: nowrap; /* Allow content to wrap if it exceeds the container width */
+  }
+  .modal-buynow-form {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal-window-buynow {
+    width: 609px;
+    height: 1058px;
+    top: 60%;
+  }
+  .product-container {
+    display: flex;
+    justify-content: center;
   }
 }
