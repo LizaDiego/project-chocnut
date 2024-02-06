@@ -20,7 +20,7 @@
 
 .header-container {
     width: 1136px;
-    display: inline-flex
+    display: inline-flex;
 
 }
 
@@ -45,8 +45,9 @@
 .navmenu
 .nav-item,
 .navsocial {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -63,9 +64,9 @@
 }
 
 .navmenu {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 24px;
 }
 
