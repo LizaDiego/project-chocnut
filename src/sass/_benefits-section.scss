@@ -78,18 +78,21 @@
 
   .benefits-container {
     padding: 50px 0;
+    margin-top: 0;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .benefits-container {
     padding: 50px 0;
+    margin-top: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .benefits-container {
     padding: 20px 0;
+    margin-top: 0;
   }
 
   .benefits-list:nth-child(2) {
