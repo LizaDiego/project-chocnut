@@ -1,0 +1,113 @@
+<div class="buy-modal is-hidden-buy" data-modal-buy>
+  <div class="modal-window-buy">
+    <button type="button" class="modal-button-close-buy" data-modal-close-buy>
+      <svg
+        class="modal-close-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        width="28"
+        height="28"
+      >
+        <use href="./images/review-modal/review-modal.svg#close-x"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-buy-title">BUY <span>NOW</span></h2>
+
+    <ul class="buy-modal-list">
+      <li>
+        <img src="./images/hero/buychoco1.png" alt="" />
+        <p>100 g</p>
+      </li>
+      <li>
+        <img src="./images/hero/buychoco2.jpg" alt="" />
+        <p>200 g</p>
+      </li>
+      <li>
+        <img src="./images/hero/buychoco3.jpg" alt="" />
+        <p>300 g</p>
+      </li>
+    </ul>
+
+    <form action="" class="modal-buy-form" id="form" name="form">
+      <div class="modal-buy-gap">
+        <label for="name">Personal information</label>
+        <div class="first-last-name">
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Name"
+            required
+          />
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Surname"
+            required
+          />
+        </div>
+
+        <label for="name">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <label for="name">Phone number</label>
+        <div class="modal-buy-field">
+          <input
+            class="input-number-buy"
+            id="tel"
+            name="telephone"
+            type="tel"
+            placeholder="Phone number"
+            required
+          />
+          <span class="wrapper-phone"
+            ><svg
+              class="modal-flag-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+            >
+              <use href="./images/review-modal/review-modal.svg#flag-svg"></use>
+            </svg>
+            <span class="phone-number-reviews">+380</span>
+          </span>
+        </div>
+        <label for="name">Card number</label>
+        <div class="modal-buy-field-card">
+          <input
+            id="card"
+            name="card"
+            type="text"
+            placeholder="Card number"
+            required
+          />
+          <svg
+            class="modal-flag-svg-new"
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+          >
+            <use href="./images/hero/hero-icon.svg#card"></use>
+          </svg>
+        </div>
+
+        <label for="comment">Comment</label>
+        <textarea
+          id="comment"
+          name="comment"
+          class="modal-buy-textarea"
+          rows="5"
+          placeholder="Enter text"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="buy-modal-send-btn">Send</button>
+    </form>
+  </div>
+</div>

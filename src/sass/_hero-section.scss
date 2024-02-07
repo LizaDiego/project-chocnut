@@ -1,227 +1,315 @@
-.hero-section {
+.buy-button {
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 30px;
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.hero-container {
-  background-image: url(../images/chocolate-covered-cocoa-powder1.png);
-  width: 1136px;
-  height: 600px;
-  // flex-shrink: 0;
+
+.hero {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+
+  color: var(--white);
+}
+
+.main-container {
+  padding-left: 20px;
+  padding-right: 16px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
   background: linear-gradient(
       180deg,
       rgba(17, 17, 17, 0) 0%,
       rgba(17, 17, 17, 0.4) 100%
     ),
-    url(../images/chocolate-covered-cocoa-powder1.png),
-    lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
-  border-radius: 30px;
-  background-repeat: no-repeat;
+    url(../images/hero/hero-choco.png);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center the content horizontally */
+  height: 620px;
+  border-radius: 30px;
 }
 
-.content-container {
-  padding: 381px 40px 40px 40px;
-  display: flex;
-  width: 1056px;
-  height: 179px;
-  flex-direction: column;
-  align-items: flex-start;
-  // gap: 32px;
-  flex-shrink: 0;
-  width: 100%; /* Change to 100% to make it responsive */
-  // max-width: 1056px; /* Set max-width to ensure it doesn't go beyond this */
-  // max-width: 100%;
-}
+.hero__title {
+  min-height: 428px;
+  margin-bottom: 32px;
+  padding-top: 325px;
 
-.hero-text {
-  width: 484px;
-  height: 102px;
-  // flex-shrink: 0;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 28px;
-  font-style: normal;
+  letter-spacing: -0.03em;
   font-weight: 500;
-  line-height: 34px; /* 121.429% */
-  letter-spacing: -0.84px;
+  font-size: 20px;
+  text-align: left;
 }
-.hero-buy {
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  background: #fd9222;
-  border-radius: 100px;
-  padding: 14px 40px;
-  // align-items: flex-start;
-  gap: 14px;
+
+.hero__list {
   display: flex;
-  margin: 0%;
-  white-space: nowrap;
-}
-
-.hero-how {
-  height: 17px;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  border-radius: 100px;
-  border: 1px solid #fff;
-  width: 100%;
-  height: 45px;
-  padding: 14px 40px;
   gap: 14px;
-  margin: 0%;
-  white-space: nowrap;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.hero-scroll {
-  color: #fff;
-  font-family: Montserrat;
+.buy-button {
+  min-width: 180px;
+  padding: 12px 28px;
+
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px; /* 128.571% */
-  letter-spacing: -0.42px;
-  margin: 0%;
 }
 
-.hero-arrow {
-  width: 38px;
-  height: 38px;
+.how-its-made-button {
+  display: block;
+  min-width: 180px;
+  padding: 12px 28px;
+  border: 1px solid var(--white);
+
+  border-radius: 100px;
+  color: var(--white);
+  text-align: center;
+  transition: color var(--duration) var(--time-function),
+    background var(--duration) var(--time-function);
 }
-.bhsa-container {
+
+.scroll {
+  margin-left: auto;
+
+  cursor: pointer;
+}
+
+.scroll__box {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  // margin-bottom: 30px;
-  width: 100%;
-  // justify-content: center; /* Center the content horizontally */
-  flex-wrap: wrap; /* Allow content to wrap if it exceeds the container width */
+  gap: 14px;
+  border: none;
+
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+
+  transition: color var(--duration) var(--time-function);
 }
 
-.left-container,
-.right-container {
+.scroll__button {
+  width: 28px;
+  height: 28px;
   display: flex;
-  align-items: center; /* Align items vertically centered */
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+  border-radius: 50%;
+
+  background: var(--white);
+  transition: background var(--duration) var(--time-function);
 }
 
-.hero-scroll,
-.hero-arrow {
-  margin-left: 20px; /* Adjust the spacing between the right items */
+.svg-scroll {
+  fill: var(--accent-color);
+  transition: fill var(--duration) var(--time-function);
 }
 
-.hero-buy,
-.hero-how {
-  margin-right: 20px; /* Adjust the spacing between the left items */
+.how-its-made-button:hover,
+.how-its-made-button:focus {
+  color: var(--accent-color);
+  background-color: #e2e2e2;
 }
 
-@media screen and (max-width: 768px) {
-  .hero-container {
-    background-image: url(../images/chocolate-covered-cocoa-powder1.png);
+.scroll:hover .scroll__box,
+.scroll:focus .scroll__box {
+  color: var(--orange);
+}
+
+.scroll:hover .scroll__button,
+.scroll:focus .scroll__button {
+  background: var(--orange);
+}
+
+.scroll:hover .svg-scroll,
+.scroll:focus .svg-scroll {
+  fill: var(--white);
+}
+
+.top-btn {
+  display: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-container {
+    background: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      )
+      url(../images/hero/hero-choco.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; /* Adjusted property for cropping */
-    width: 100%;
-    max-width: 704px;
-    height: auto;
-    flex-shrink: 0;
-  }
-
-  .content-container {
-    padding: 671px 40px 40px 40px;
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    align-items: flex-start;
-    // gap: 32px;
-    flex-shrink: 0;
-    width: 100%; /* Change to 100% to make it responsive */
-    // max-width: 1056px; /* Set max-width to ensure it doesn't go beyond this */
-    // max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .hero-container {
-    background-image: url(../images/chocolate-covered-cocoa-powder1.png);
-    background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
-    max-width: 375px;
-    height: 621px;
-    flex-shrink: 0;
   }
+}
 
-  .content-container {
-    padding: 400px 20px 40px 20px; /* Adjusted padding */
-    // padding: 395px 20px 154px 20px;
+@media screen and (min-width: 375px) {
+  .main-container {
+    max-width: 335px;
+  }
+  .hero__title {
+    padding-top: 390px;
+    min-height: auto;
     text-align: left;
   }
-
-  .bhsa-container {
+  .buy-button {
+    min-width: 120px;
   }
+  .how-its-made-button {
+    min-width: 160px;
+  }
+  .hero__list {
+    gap: 32px 14px;
+  }
+}
 
-  .left-container,
-  .right-container {
-    width: 100%;
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 50px;
+  }
+  .main-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      )
+      url(../images/hero/hero-choco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 704px;
+    height: 890px;
+  }
+  .hero__title {
+    max-width: 484px;
+    padding-top: 670px;
+
+    font-size: 28px;
+    text-align: left;
+  }
+  .buy-button {
+    min-width: 144px;
+  }
+  .how-its-made-button {
+    min-width: 183px;
+  }
+  .scroll__button {
+    width: 38px;
+    height: 38px;
+  }
+  .svg-scroll {
+    width: 16px;
+    height: 16px;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-container {
+      background: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        url(../images/hero/hero-choco.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 72px;
+  }
+  .main-container {
+    background: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url(../images/hero/hero-choco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1136px;
+    height: 600px;
+  }
+  .hero__title {
+    padding-top: 380px;
+    text-align: left;
+  }
+  .top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--accent-color);
+    justify-content: center;
+    align-items: center;
+
+    outline: none;
+    background-color: transparent;
+    border-radius: 50%;
+
+    transform: scale(1);
+    transition: transform var(--duration) var(--time-function),
+      background-color var(--duration) var(--time-function);
+  }
+  .top-btn:hover,
+  .top-btn:focus {
+    transform: scale(1.15);
+    background-color: var(--accent-color);
+  }
+  .top-btn:hover .top-btn__icon,
+  .top-btn:focus .top-btn__icon {
+    fill: var(--white-color);
+  }
+  .top-btn.show {
     display: flex;
-    justify-content: space-between;
-    justify-content: flex-start;
+  }
+  .top-btn__icon {
+    transform: rotate(180deg);
+
+    fill: var(--accent-color);
+    transition: fill var(--duration) var(--time-function);
   }
 
-  .left-container {
-    padding-bottom: 20px;
-  }
-
-  .hero-scroll,
-  .hero-arrow {
-    margin-left: 0;
-  }
-
-  .hero-buy,
-  .hero-how {
-    margin-right: 0;
-    white-space: nowrap;
-    padding: 12px 28px;
-  }
-
-  .hero-how {
-  }
-
-  .hero-buy {
-    margin-right: 14px;
-  }
-
-  .hero-text {
-    width: 295px;
-    height: 72px;
-    color: #fff;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 120% */
-    // letter-spacing: -flex-shrireview0.6px;
-  }
-  .hero-how {
-    color: #fff;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    line-height: normal;
-    border-radius: 100px;
-    border: 1px solid #fff;
-    white-space: nowrap;
-    max-width: auto;
-    width: auto;
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-container {
+      background: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        url(../images/hero/hero-choco.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
 }
